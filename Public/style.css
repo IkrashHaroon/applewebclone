@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+:root{
+  --bg: #f4f7fb;
+  --text: #111;
+  --muted: #666;
+  --blue: #0a6aff;
+  --accent: rgba(0, 102, 204, 0.08);
+  --radius: 12px;
+  --shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "SF Pro Display", sans-serif;
+}
+
+.nav {
+    height: 45px;
+    background-color: #1e1e1ff8;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo .icon {
+    height: 30px;
+    width: 45px;
+    font-size: 19px;
+    margin: 11px 10px 0px 8%;
+    color: lab(100% 0.01 -0.01 / 0.849);
+    cursor: pointer;
+    transition: color 0.3s ease-out;
+    text-shadow: none;
+    filter: none;
+    box-shadow: none;
+}
+
+.logo .icon:hover {
+    color: #ffffff;
+
+}
+
+.logo .links {
+    list-style-type: none;
+    text-decoration: none;
+    color: lab(100% 0.01 -0.01 / 0.849);
+    margin: -5px 15px;
+    font-size: 12px;
+    transition: color 0.3s ease-out;
+    text-shadow: none;
+    filter: none;
+    box-shadow: none;
+}
+
+.logo .links:hover {
+    color: #ffffff;
+
+}
+
+.logo .fa-solid {
+    color: lab(100% 0.01 -0.01 / 0.849);
+    margin: 10px 10px;
+    transition: color 0.3s ease-out;
+    text-shadow: none;
+    filter: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.logo .fa-solid:hover {
+    color: #ffffff;
+
+}
+
+.hero-section .hero-headings {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    font-size: 27px;
+    letter-spacing: -2px;
+    word-spacing: -2px;
+    font-weight: 800;
+}
+
+.hero-section .hero-headings h2 {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+     letter-spacing: 1px;
+    word-spacing: -1px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.hero-section .banner {
+    height: 450px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.hero-section .banner img {
+    margin: 0;
+    height: 95%;
+    width: 85%;
+}
+
+.btn {
+    height: 50px;
+    width: 12%;
+    margin: 18px 10px -50px 10px;
+    padding: 10 35px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    line-height: 1;
+}
+
+
+.btn1 {
+    background: #0a6cff;
+    box-shadow: 0 6px 14px rgba(10, 108, 255, 0.45);
+    color: #ffffff;
+}
+
+.btn1:hover {
+    background-color: #3385ff;
+}
+
+.btn2 {
+    background: transparent;
+    color: #0a6cff;
+    height: 50px;
+    width: 8%;
+    border: 2px solid #0a6cff;
+}
+
+.btn2:hover {
+    background: #3385ff;
+    color: #ffffff;
+}
+
+.after-hero {
+    width: 100%;
+    height: 100vh; 
+    background-color: #f5f5f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+    padding: 40px 20px;
+}
+.after-hero .content {
+    margin-top: 260px;
+}
+.after-hero .content h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-top: 40px; 
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.after-hero .content p {
+    font-size: 25px;
+    color: #333;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.after-hero .buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.after-hero .btn {
+    padding: 17px 22px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;  
+}
+
+
+.after-hero .btn.learn {
+    background: #0071e3;
+    color: #fff;
+    width: 130px;
+}
+
+.after-hero .btn.learn:hover {
+    background: #005bb5;
+}
+
+.after-hero .btn.buy {
+    border: 1px solid #0071e3;
+    color: #0071e3;
+    width: 150px;
+}
+
+.after-hero .btn.buy:hover {
+    background: #0071e3;
+    color: #fff;
+}
+
+.after-hero .image img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+   left: 80px;
+    position: relative; 
+}
+
+
+.after-hero1 {
+    width: 100%;
+    height: 83vh;
+    background-color: #f5f5f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    padding: 40px 20px;
+}
+
+.after-hero1 .content1 h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-top: 30px;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.after-hero1 .content1 p {
+    font-size: 32px;
+    color: #333;
+    margin-top: -5px;
+    line-height: 1.4;
+}
+
+.after-hero1 .buttons1 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.after-hero1 .btn {
+    padding: 12px 22px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+    height: 40px;
+    width: 30%;
+}
+
+.after-hero1 .btn.learn1 {
+    background: #0071e3;
+    color: #fff;
+    width: 150px;
+}
+
+.after-hero1 .btn.learn1:hover {
+    background: #005bb5;
+}
+
+.after-hero1 .btn.buy1 {
+    border: 1px solid #0071e3;
+    color: #0071e3;
+}
+
+.after-hero1 .btn.buy1:hover {
+    background: #0071e3;
+    color: #fff;
+}
+
+.after-hero1 .image1 img {
+    max-width: 80%;
+    height: auto;
+    padding: 150;
+}
+ .product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px 0;
+  background-color: #fff;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.product-card {
+  background-color: #f5f5f7;
+  width: calc(50% - 20px); /* 2 cards per row */
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+
+  .product-content {
+    text-align: center;
+    margin-bottom: 20px;
+     font-family: "SF Pro Display", sans-serif;
+  }
+
+  .product-image {
+    max-width: 100%;
+    height: auto;
+  }
+  h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .btn {
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    height: 50px;
+    width: 135px;
+  }
+
+  .btn.blue {
+    background-color: #0071e3;
+    color: #fff;
+  }
+
+  .btn.outline {
+    border: 1px solid #0071e3;
+    color: #0071e3;
+    background-color: transparent;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+   .tv-highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    /* background-color: #000; */
+    gap: 20px;
+  }
+
+  .tv-card {
+    width: 30%;
+    transition: 0.3s ease-in-out;
+  }
+
+  .tv-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .tv-card.faded {
+    opacity: 0.4;
+  }
+
+  .tv-card.center {
+    width: 40%;
+    opacity: 1;
+  }
+   .image-section {
+      display: flex;
+      gap: 15px;
+      overflow: hidden;
+      padding: 20px;
+    }
+    .image-card {
+      flex: 1;
+      max-width: 300px; /* control width */
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+    .image-card img {
+      width: 100%;
+      height: 200px;  /* same height for all */
+      object-fit: cover;
+      display: block;
+    }
+    .image-text {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    }
+      footer {
+      background: #f5f5f7;
+      color: #555;
+      font-size: 14px;
+      padding: 40px 20px;
+    }
+    .footer-container {
+      max-width: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 30px;
+    }
+    .footer-col h4 {
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #000;
+    }
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .footer-col ul li {
+      margin: 6px 0;
+    }
+    .footer-col ul li a {
+      text-decoration: none;
+      color: #555;
+      font-size: 13px;
+    }
+    .footer-col ul li a:hover {
+      text-decoration: underline;
+    }
+    .footer-bottom {
+      max-width: 1000px;
+      margin: 30px auto 0;
+      border-top: 1px solid #d2d2d7;
+      padding-top: 15px;
+      font-size: 12px;
+      color: #777;
+      text-align: center;
+    }
