@@ -1,11 +1,9 @@
-<!-- 💠 APPLE PRO GRADIENT EDITION README 💠 -->
-
 <h1 align="center">🍏 Apple Website Clone</h1>
 
 <p align="center">
-  <i>A pixel-perfect, <b>Apple-inspired</b> clone built with passion, precision, and perfection.</i><br>
-  <b>Crafted using HTML & CSS only</b> — capturing Apple's minimalism and elegance.<br>
-  ⚠️ <i>Currently not responsive — Insha’Allah, a responsive version will be added soon.</i>
+  <i>A pixel-perfect, <b>Apple-inspired</b> website clone built with passion, precision, and perfection.</i><br>
+  <b>Crafted using HTML & CSS only</b> — capturing Apple’s clean, modern, and luxurious design aesthetic.<br>
+  ⚠️ <i>Currently not responsive — Insha’Allah, a responsive version will be developed soon.</i>
 </p>
 
 ---
@@ -22,18 +20,18 @@
 
 ## 🌌 Overview  
 
-> ✨ A **pixel-perfect** clone of the official [Apple.com](https://www.apple.com/).  
-> Experience the **Apple aura** — smooth visuals, elegant UI, and a premium feel.  
-> This project brings the same luxury minimalism that defines Apple’s design DNA.  
+> ✨ A **pixel-perfect** and elegant clone of the official [Apple.com](https://www.apple.com/).  
+> Experience a **premium Apple-inspired interface** that combines clean design, smooth layout, and authentic typography.  
+> Deployed with **Firebase Hosting** for seamless performance and accessibility.
 
 ---
 
 ## 🚀 Features  
 
-- 🍎 **Apple-like Aesthetics** — Inspired directly by Apple’s layout and design language  
-- 🖤 **Modern & Minimal Interface** — Premium spacing, clean typography, and high-contrast visuals  
-- ⚡ **Deployed via Firebase Hosting** — Fast, scalable, and reliable  
-- 🧠 **Built for Learning** — Ideal for HTML/CSS learners aiming for real-world standards  
+- 🍎 **Apple-like UI/UX** — replicates Apple’s premium layout and aesthetics  
+- 🖤 **Modern & Minimal Design** — inspired by Apple’s dark and silver tone  
+- ⚡ **Deployed via Firebase Hosting** — fast, reliable, and secure  
+- 🧠 **Educational Purpose** — a perfect project to learn professional front-end structure  
 
 ---
 
@@ -49,32 +47,39 @@
 
 ## 🌍 Live Demo  
 
-🔗 **Visit Live:** [applewebclone.web.app](https://applewebclone.web.app/)  
-> 💫 Explore a **fully functional Apple-style interface** hosted on Firebase.
+🔗 **Live Link:** [applewebclone.web.app](https://applewebclone.web.app/)  
+> Experience the Apple-inspired interface directly in your browser.  
 
 ---
 
 ## 📂 Project Structure  
 
 ```bash
-applewebclone/
+Public/
+├── images/
+│   └── (website assets)
+│
+├── 404.html
 ├── index.html
 ├── style.css
-├── images/
+│
+├── .firebaserc
+├── .gitignore
+├── firebase.json
 └── README.md
 ```
 📜 License
 
 ⚠️ Disclaimer:
-This project is created for educational and practice purposes only.
-All assets, UI components, and design rights belong to Apple Inc.
-This project is not for commercial distribution.
+This project is created for educational purposes only.
+All rights, design elements, and assets belong to Apple Inc.
+This clone is not intended for commercial use.
 
 👨‍💻 Developer
 
 Developed by Ikrash Ibn Haroon
 
-“Combining creativity and code to recreate world-class experiences.”
+Recreating the art of design and precision inspired by Apple.
 
 <p align="center"> <img src="https://img.shields.io/badge/Made%20with-❤️%20by%20Ikrash-black?style=for-the-badge&labelColor=1c1c1c"> </p>
-<p align="center"> ⭐ <b>If you like this project, give it a star on GitHub!</b> ⭐ </p> ```
+<p align="center"> ⭐ <b>If you like this project, please give it a star on GitHub!</b> ⭐ </p> ```
