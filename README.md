@@ -1,28 +1,39 @@
-# 🍏 Apple Website Clone  
+<!-- 💠 APPLE PRO GRADIENT EDITION README 💠 -->
 
-> A **pixel-perfect**, premium-grade clone of the official [Apple](https://www.apple.com/) website — designed with elegance, precision, and minimalism in mind.  
-> Built using **HTML & CSS only**, this project captures Apple’s modern UI/UX aesthetics.  
->  
-> ⚠️ *Currently not responsive — Insha’Allah, a fully responsive version will be developed and added soon.*  
+<h1 align="center">🍏 Apple Website Clone</h1>
+
+<p align="center">
+  <i>A pixel-perfect, <b>Apple-inspired</b> clone built with passion, precision, and perfection.</i><br>
+  <b>Crafted using HTML & CSS only</b> — capturing Apple's minimalism and elegance.<br>
+  ⚠️ <i>Currently not responsive — Insha’Allah, a responsive version will be added soon.</i>
+</p>
 
 ---
 
-## 🏆 Badges  
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-000000?style=for-the-badge&logo=html5&logoColor=E34F26&labelColor=1c1c1c">
+  <img src="https://img.shields.io/badge/CSS-3-000000?style=for-the-badge&logo=css3&logoColor=1572B6&labelColor=1c1c1c">
+  <img src="https://img.shields.io/badge/Firebase-Hosting-000000?style=for-the-badge&logo=firebase&logoColor=FFCA28&labelColor=1c1c1c">
+  <img src="https://img.shields.io/badge/Status-Live-000000?style=for-the-badge&logo=apple&logoColor=white&labelColor=1c1c1c">
+  <img src="https://img.shields.io/badge/License-Educational_Use-000000?style=for-the-badge&logo=openai&logoColor=white&labelColor=1c1c1c">
+</p>
 
-![HTML](https://img.shields.io/badge/HTML-5-black?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-3-black?style=for-the-badge&logo=css3&logoColor=white)
-![Firebase](https://img.shields.io/badge/Hosted%20on-Firebase-black?style=for-the-badge&logo=firebase&logoColor=yellow)
-![Status](https://img.shields.io/badge/Status-Live-black?style=for-the-badge&logo=apple&logoColor=white)
-![License](https://img.shields.io/badge/License-Educational%20Use-black?style=for-the-badge&logo=book&logoColor=white)
+---
+
+## 🌌 Overview  
+
+> ✨ A **pixel-perfect** clone of the official [Apple.com](https://www.apple.com/).  
+> Experience the **Apple aura** — smooth visuals, elegant UI, and a premium feel.  
+> This project brings the same luxury minimalism that defines Apple’s design DNA.  
 
 ---
 
 ## 🚀 Features  
 
-🖤 **Exact Apple-inspired design** – visually mirrors [Apple.com](https://www.apple.com/)  
-💎 **Premium & minimal layout** – elegant typography and clean sections  
-⚡ **Firebase Hosting** – fast, secure, and reliable  
-📚 **Educational purpose** – built to learn professional-grade design structure  
+- 🍎 **Apple-like Aesthetics** — Inspired directly by Apple’s layout and design language  
+- 🖤 **Modern & Minimal Interface** — Premium spacing, clean typography, and high-contrast visuals  
+- ⚡ **Deployed via Firebase Hosting** — Fast, scalable, and reliable  
+- 🧠 **Built for Learning** — Ideal for HTML/CSS learners aiming for real-world standards  
 
 ---
 
@@ -38,8 +49,8 @@
 
 ## 🌍 Live Demo  
 
-🔗 **Live Now:** [applewebclone.web.app](https://applewebclone.web.app/)  
-> Experience a **true Apple-inspired interface** in your browser.  
+🔗 **Visit Live:** [applewebclone.web.app](https://applewebclone.web.app/)  
+> 💫 Explore a **fully functional Apple-style interface** hosted on Firebase.
 
 ---
 
@@ -51,17 +62,19 @@ applewebclone/
 ├── style.css
 ├── images/
 └── README.md
-📜 License
 ```
+📜 License
+
 ⚠️ Disclaimer:
-This project is developed for educational purposes only.
-All assets, design elements, and trademarks belong to Apple Inc.
-This clone is not intended for commercial use.
+This project is created for educational and practice purposes only.
+All assets, UI components, and design rights belong to Apple Inc.
+This project is not for commercial distribution.
 
 👨‍💻 Developer
 
 Developed by Ikrash Ibn Haroon
 
-Crafting digital experiences inspired by Apple’s perfection and precision.
+“Combining creativity and code to recreate world-class experiences.”
 
-⭐ If you like this project, give it a star on GitHub — your support means a lot! ⭐
+<p align="center"> <img src="https://img.shields.io/badge/Made%20with-❤️%20by%20Ikrash-black?style=for-the-badge&labelColor=1c1c1c"> </p>
+<p align="center"> ⭐ <b>If you like this project, give it a star on GitHub!</b> ⭐ </p> ```
